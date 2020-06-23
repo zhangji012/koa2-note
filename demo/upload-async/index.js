@@ -1,5 +1,5 @@
 const Koa = require('koa')
-const views = require('koa-views')
+const views = require('koa-views') //在koa2中使用模板机制必须依靠中间件，最常用的便是koa-views
 const path = require('path') 
 const static = require('koa-static')
 const { uploadFile } = require('./util/upload')
